@@ -1,0 +1,18 @@
+package ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivores;
+
+import ua.com.javarush.pashakolomiiets.md2Animals.Core.Setting;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivor;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivorClass;
+
+public class Duck extends HerbivorClass implements Herbivor {
+    public Duck() {
+        super(1, 4, 0.15);
+    }
+
+
+    public static int maxOnCell = Setting.duckMaxOnCell;
+
+    public static int getMaxOnCell() {
+        return maxOnCell;
+    }
+}

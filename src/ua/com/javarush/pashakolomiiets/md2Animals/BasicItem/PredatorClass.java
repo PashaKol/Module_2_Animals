@@ -1,0 +1,11 @@
+package ua.com.javarush.pashakolomiiets.md2Animals.BasicItem;
+
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Animal;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Predator;
+
+public class PredatorClass extends Animal implements Predator {
+
+    public PredatorClass(double weight, int speed, double satiety) {
+        super(weight, speed, satiety);
+    }
+}
