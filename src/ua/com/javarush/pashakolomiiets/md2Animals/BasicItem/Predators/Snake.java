@@ -7,7 +7,7 @@ import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.PredatorClass;
 public class Snake extends PredatorClass implements Predator {
 
     public Snake() {
-        super(15, 1, 3);
+        super(15, 1, 3 , 15);
     }
 
     public static int maxOnCell = Setting.snakeMaxOnCell;

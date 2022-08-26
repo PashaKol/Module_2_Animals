@@ -2,11 +2,11 @@ package ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivores;
 
 import ua.com.javarush.pashakolomiiets.md2Animals.Core.Setting;
 import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivor;
-import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivorClass;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivoreClass;
 
-public class Caterpillar extends HerbivorClass implements Herbivor {
+public class Caterpillar extends HerbivoreClass implements Herbivor {
     public Caterpillar() {
-        super(0.01, 0, 0);
+        super(0.01, 0, 0 , 2);
     }
 
 

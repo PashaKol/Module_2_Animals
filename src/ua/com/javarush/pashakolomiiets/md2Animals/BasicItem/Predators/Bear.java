@@ -8,7 +8,7 @@ public class Bear extends PredatorClass implements Predator {
 
 
     public Bear() {
-        super(500,2, 80);
+        super(500,2, 80 , 15);
     }
 
     public static int maxOnCell = Setting.bearMaxOnCell;

@@ -2,11 +2,11 @@ package ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivores;
 
 import ua.com.javarush.pashakolomiiets.md2Animals.Core.Setting;
 import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivor;
-import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivorClass;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivoreClass;
 
-public class Buffalo extends HerbivorClass implements Herbivor {
+public class Buffalo extends HerbivoreClass implements Herbivor {
     public Buffalo() {
-        super(700, 3, 100);
+        super(700, 3, 100, 4);
     }
 
 

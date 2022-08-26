@@ -4,16 +4,16 @@ import ua.com.javarush.pashakolomiiets.md2Animals.Core.Setting;
 
 public class Herb {
 
-    private int weight;
+    private double weigh;
+    private static int maxOnCell = Setting.herbsMaxOnCell;
 
-    public Herb(int weight) {
-        this.weight = 1;
+    public Herb() {
+        this.weigh = 1;
     }
-
-    public static int maxOnCell = Setting.herbsMaxOnCell;
 
     public static int getMaxOnCell() {
         return maxOnCell;
     }
+
 }
 

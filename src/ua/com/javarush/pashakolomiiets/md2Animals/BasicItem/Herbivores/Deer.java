@@ -2,11 +2,11 @@ package ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivores;
 
 import ua.com.javarush.pashakolomiiets.md2Animals.Core.Setting;
 import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Herbivor;
-import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivorClass;
+import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.HerbivoreClass;
 
-public class Deer extends HerbivorClass implements Herbivor {
+public class Deer extends HerbivoreClass implements Herbivor {
     public Deer() {
-        super(300, 4, 50);
+        super(300, 4, 50 , 4 );
     }
 
     public static int maxOnCell = Setting.deerMaxOnCell;
