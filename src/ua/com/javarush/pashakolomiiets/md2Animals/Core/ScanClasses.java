@@ -9,8 +9,7 @@ import java.util.stream.Collectors;
 
 public class ScanClasses {
 
-    //Класс для сканирования пакетов Herbivores и Predators, что бы получить списки классов для дальнейшей генерации
-    //Используется google.guava 31-1. Смотри pom.xml
+
     public static Set<Class> predatorsClasses;
     public static Set<Class> herbivoresClasses;
 
