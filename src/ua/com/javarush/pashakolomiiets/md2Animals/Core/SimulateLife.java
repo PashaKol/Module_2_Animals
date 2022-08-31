@@ -43,4 +43,5 @@ public class SimulateLife implements Runnable {
 
     public void tryToMove(Cell cell, int positionY, int positionX) {
         cell.tryToMove(positionY, positionX);
-    }}
+    }
+}

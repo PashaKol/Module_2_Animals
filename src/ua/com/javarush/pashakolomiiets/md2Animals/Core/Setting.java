@@ -7,13 +7,11 @@ public class Setting {
 
     public static int maxY = 100;
     public static int maxX = 20;
-
     public static int wolfMaxOnCell = 30;
     public static int snakeMaxOnCell = 30;
     public static int foxMaxOnCell = 30;
     public static int bearMaxOnCell = 5;
     public static int eagleMaxOnCell = 20;
-
     public static int horseMaxOnCell = 20;
     public static int deerMaxOnCell = 20;
 

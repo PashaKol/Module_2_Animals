@@ -16,10 +16,8 @@ public class ScanClasses {
     static {
         {
             try {
-                predatorsClasses = findAllClassesUsingGoogleGuice(
-                        "fauna.predators");
-                herbivoresClasses = findAllClassesUsingGoogleGuice(
-                        "fauna.herbivores");
+                predatorsClasses = findAllClassesUsingGoogleGuice("fauna.predators");
+                herbivoresClasses = findAllClassesUsingGoogleGuice("fauna.herbivores");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -27,16 +25,9 @@ public class ScanClasses {
     }
 
 
-
     public static Set<Class> findAllClassesUsingGoogleGuice(String packageName) throws IOException {
 
-        return ClassPath.from(ClassLoader.getSystemClassLoader())
-                .getAllClasses()
-                .stream()
-                .filter(clazz -> clazz.getPackageName()
-                        .equalsIgnoreCase(packageName))
-                .map(clazz -> clazz.load())
-                .collect(Collectors.toSet());
+        return ClassPath.from(ClassLoader.getSystemClassLoader()).getAllClasses().stream().filter(clazz -> clazz.getPackageName().equalsIgnoreCase(packageName)).map(clazz -> clazz.load()).collect(Collectors.toSet());
     }
 
     public static Set<Class> getPredatorsClasses() {
