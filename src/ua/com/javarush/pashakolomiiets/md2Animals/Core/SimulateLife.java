@@ -18,6 +18,7 @@ public class SimulateLife implements Runnable {
 
                 tryDecreaseSatiety(objects[i][j]);
 
+
                 tryToEat(objects[i][j]);
 
                 tryToMove(objects[i][j], i, j);

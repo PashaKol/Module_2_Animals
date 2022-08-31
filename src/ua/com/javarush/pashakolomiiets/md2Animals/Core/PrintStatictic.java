@@ -35,6 +35,7 @@ public class PrintStatictic implements Runnable {
             e.printStackTrace();
         }
 
+
     }
 
     public static void addHerbs(Cell[][] objects) {

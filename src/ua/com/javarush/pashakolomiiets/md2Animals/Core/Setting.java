@@ -16,6 +16,7 @@ public class Setting {
 
     public static int horseMaxOnCell = 20;
     public static int deerMaxOnCell = 20;
+
     public static int rabbitMaxOnCell = 150;
     public static int mouseMaxOnCell = 500;
     public static int goatMaxOnCell = 140;

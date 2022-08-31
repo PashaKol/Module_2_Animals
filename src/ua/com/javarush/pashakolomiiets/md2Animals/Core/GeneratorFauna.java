@@ -1,3 +1,4 @@
+
 package ua.com.javarush.pashakolomiiets.md2Animals.Core;
 
 import ua.com.javarush.pashakolomiiets.md2Animals.BasicItem.Animal;
